@@ -30,7 +30,8 @@ body{
     border: 1px solid rgba(255, 113, 67, 1);
     border-radius: 10px;
     color: rgba(255, 113, 67, 1);
-    background: rgba(219, 219, 219, 0.329);
+    background: #efefef;
+    cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 .btn1:hover{
@@ -39,5 +40,251 @@ body{
     color: whitesmoke;
     box-shadow: 0px 0px 10px rgb(114, 114, 113);
 }
-
+.tx2{
+    font-size: 80px;
+    letter-spacing: -2.5px;
+    line-height: 77px;
+    width: 462px;
+    height: 231px;
+}
+.prg{
+    width: 440px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    color: #696871;
+    font-weight: 400;
+    top: 261px;
+}
+.block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+.btn2{
+    width: 211px;
+    height: 60px;
+    margin-top: 30px;
+    border: 1px solid #5454D4;
+    border-radius: 10px;
+    background-color: #efefef;
+    color: #5454D4;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn2:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #5454D4;
+    color: whitesmoke;
+    box-shadow: 0px 0px 15px black;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 90px;
+}
+.card5,.add{
+    transition: all 0.5s ease-in-out;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card5,.add:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px rgba(84, 84, 212, 1);
+}
+.tx3{
+    width: 556px;
+    height: 67px;
+    font-size: 50px;
+}
+.prg2{
+    width: 459px;
+    height: 90px;
+    color: #696871;
+    font-size: 20px;
+}
+.add2{
+    text-decoration: none;
+    color: rgba(84, 84, 212, 1);
+    font-size: 19px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 400;
+}
+.add2:hover{
+    transition: all 0.5s ease-in-out;
+    border-bottom:3px solid #5454D4;
+    color: black;
+}
+.block4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    margin-top: 150px;
+}
+.tx4{
+    width: 556px;
+    height: 57px;
+    font-size: 50px;
+}
+.prg3{
+    width: 459px;
+    height: 60px;
+    font-size: 20px;
+    color: #696871;
+}
+.block5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+.img1{
+    width: 151px;
+    height: 97px;
+}
+.tx5{
+    width: 138px;
+    height: 36px;
+    font-size: 24px;
+    margin-left: 80px;
+}
+.tx6{
+    width: 150px;
+    height: 36px;
+    font-size: 24px;
+    margin-left: 80px;
+}
+.tx7{
+    width: 180px;
+    height: 36px;
+    font-size: 24px;
+    margin-left: 80px;
+}
+.prg4{
+    width: 307px;
+    height: 48px;
+    font-size:16px ;
+    color: #696871;
+}
+.block6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.card9{
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    padding: 15px 5px;
+    height: 260px;
+}
+.card9:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 15px rgba(84, 84, 212, 1);
+}
+.tx8{
+    width: 540px;
+    height: 140px;
+    font-size: 60px;
+}
+.block7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    margin-top: 100px;
+}
+.card11{
+    display: inline-flex;
+}
+.btn3{
+    width: 160px;
+    height: 55px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0;
+    border-left: none;
+    cursor: pointer;
+    background-color: #efefef;
+    transition: all 0.5s ease-in-out;
+}
+.btn3:focus{
+    transition: all 0.5s ease-in-out;
+    background-color: #5454D4;
+    color: whitesmoke;
+    box-shadow: 0 -2px 5px black, 0 2px 5px black ;
+}
+.btn4{
+    width: 160px;
+    height: 55px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0;
+    border-right: none;
+    cursor: pointer;
+    background-color: #efefef;
+    transition: all 0.5s ease-in-out;
+}
+.btn4:focus{
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(255, 113, 67, 1);
+    color: whitesmoke;
+    box-shadow: 0 -2px 5px black, 0 2px 5px black ;
+}
+.block8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.card12{
+    border: none;
+    background-color: #efefef;
+    width: 330px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+}
+.card12:hover{
+    transition: all 0.6s ease-in-out;
+    background-color: rgba(255, 113, 67, 1);
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+.prg5{
+    font-size: 18px;
+    color: #696871;
+    text-align: center;
+}
+.tx9{
+    font-size: 50px;
+    text-align: center;
+}
+.btn5{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 285px;
+    height: 60px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #5454D4;
+    transition: all 0.5s ease-in-out;
+}
+.btn5:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #9F3919;
+    color: whitesmoke;
+}
 
