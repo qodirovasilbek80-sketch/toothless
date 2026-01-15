@@ -287,110 +287,74 @@ body{
     background-color: #9F3919;
     color: whitesmoke;
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 
     body{
         overflow-x: hidden;
     }
+
+    /* header */
     .block1{
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
+
     .card1, .tx1{
         margin-left: 0;
     }
+
     .card2{
         margin-right: 0;
     }
-    .btn1{
-        width: 90%;
-    }
 
-    /* block2 */
+    /* hero */
     .block2{
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-    }
-    .tx2{
-        width: 100%;
-        height: auto;
-        font-size: 42px;
-        line-height: 48px;
-    }
-    .prg{
-        width: 100%;
-        height: auto;
-        font-size: 16px;
-    }
-    .btn2{
-        width: 90%;
-    }
-
-    /* block3 */
-    .block3{
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-    }
-
-    /* block4 */
-    .block4{
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-    }
-    .tx3,.tx4{
-        width: 100%;
-        height: auto;
-        font-size: 32px;
-    }
-    .prg2,.prg3{
-        width: 100%;
-        height: auto;
-        font-size: 16px;
-    }
-
-    /* block5 */
-    .block5{
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-    }
-    .tx5,.tx6,.tx7{
-        margin-left: 0;
-    }
-
-    /* block6 */
-    .block6{
-        flex-direction: column;
-        gap: 40px;
-    }
-    .tx8{
-        width: 100%;
-        height: auto;
-        font-size: 36px;
-        text-align: center;
-    }
-
-    /* block7 */
-    .block7{
         flex-direction: column;
         gap: 30px;
     }
 
-    /* block8 */
+    .tx2{
+        width: 100%;
+        height: auto;
+    }
+
+    .prg{
+        width: 100%;
+        height: auto;
+    }
+
+    /* content blocks */
+    .block3,
+    .block4,
+    .block5,
+    .block6,
+    .block7,
     .block8{
         flex-direction: column;
         gap: 30px;
     }
+
+    /* text margins */
+    .tx5,
+    .tx6,
+    .tx7{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* cards */
+    .card9,
     .card12{
         width: 90%;
         height: auto;
     }
+
+    /* buttons */
+    .btn1,
+    .btn2,
     .btn5{
         width: 90%;
-        margin-left: 0;
     }
 }
+
 
