@@ -287,7 +287,7 @@ body{
     background-color: #9F3919;
     color: whitesmoke;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 300px) {
     .block1{
         font-size: 15px;
         flex-direction: row;
@@ -313,5 +313,14 @@ body{
         font-size: 20px;
         width: 200px;
         height: 100px;
+    }
+    .prg{
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .block2{
+        gap: 50px;
+        left: 200px;
     }
 }
