@@ -217,7 +217,7 @@ body{
     background-color: #efefef;
     transition: all 0.5s ease-in-out;
 }
-.btn3:focus{
+.btn3:hover{
     transition: all 0.5s ease-in-out;
     background-color: #5454D4;
     color: whitesmoke;
@@ -234,7 +234,7 @@ body{
     background-color: #efefef;
     transition: all 0.5s ease-in-out;
 }
-.btn4:focus{
+.btn4:hover{
     transition: all 0.5s ease-in-out;
     background-color: rgba(255, 113, 67, 1);
     color: whitesmoke;
@@ -287,7 +287,7 @@ body{
     background-color: #9F3919;
     color: whitesmoke;
 }
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 
     body{
         overflow-x: hidden;
